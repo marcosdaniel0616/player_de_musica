@@ -2,7 +2,7 @@ from playsound import playsound
 from os import chdir, getcwd, listdir
 from random import randrange
 
-cam = input('Digite o caminho: ')
+cam = input('Informe o caminho: ')
 
 chdir(cam)
 print(getcwd())
